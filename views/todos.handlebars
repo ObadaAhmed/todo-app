@@ -1,0 +1,30 @@
+<section id="" class="container">
+    <div class="form-wrap">
+      <h1>LoginForm</h1>
+      <p>Your contact email will be shared with registered users to apply to your developer request</p>
+        // {{#each errors}}
+        //   <div class="error">
+        //     {{text}}
+        //   </div>
+        // {{/each}}
+
+      <form action="/todos" method="POST">
+        <div class="input-group">
+          <label for="todo;">Todo</label>
+          <input type="text" name="todo" id="" class="input-box" placeholder="Insert Todo"
+            maxlength="100" >
+        </div>
+        <div class="input-group">
+          <label for="membername">Member name</label>
+          <input type="text" name="membername" id="" class="input-box" placeholder="Member name"
+          maxlength="100">
+        </div>
+        <div class="input-group">
+          <label for="memberemail">Member Email</label>
+          <input type="text" name="memberemail" id="" class="input-box" placeholder="Member Email"
+          maxlength="100">
+        </div>
+                <input type="submit" value="Insert" class="btn btn-reverse">
+      </form>
+    </div>
+  </section>
