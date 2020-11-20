@@ -8,7 +8,8 @@
         //   </div>
         // {{/each}}
 
-      <form action="/todos" method="POST">
+      <form action="/todos" method="POST" autocomplete="off">
+      {{!-- <input type="hidden" name="_id" value="{{todos._id}}"> --}}
         <div class="input-group">
           <label for="todo;">Todo</label>
           <input type="text" name="todo" id="" class="input-box" placeholder="Insert Todo"

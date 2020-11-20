@@ -1,0 +1,35 @@
+<section id="" class="container">
+    <div class="form-wrap">
+      <h1>LoginForm</h1>
+      <p>Your contact email will be shared with registered users to apply to your developer request</p>
+        // {{#each errors}}
+        //   <div class="error">
+        //     {{text}}
+        //   </div>
+        // {{/each}}
+
+      <form action="/update" method="POST" autocomplete="off">
+        <div class="input-group">
+          <label for="todo;">Todo</label>
+          <input type="text" name="id" id="" class="input-box" placeholder="Insert Id"
+            maxlength="100" >
+        </div>
+                <div class="input-group">
+          <label for="todo;">Todo</label>
+          <input type="text" name="todo" id="" class="input-box" placeholder="Insert todo"
+            maxlength="100" >
+        </div>
+                <div class="input-group">
+          <label for="todo;">Todo</label>
+          <input type="text" name="membername" id="" class="input-box" placeholder="Insert membername"
+            maxlength="100" >
+        </div>
+                <div class="input-group">
+          <label for="todo;">Todo</label>
+          <input type="text" name="memberemail" id="" class="input-box" placeholder="Insert memberemail"
+            maxlength="100" >
+        </div>
+        <input type="submit" value="Update" class="btn btn-reverse">
+      </form>
+    </div>
+  </section>
